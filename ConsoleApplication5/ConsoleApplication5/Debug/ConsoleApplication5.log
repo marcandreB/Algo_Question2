@@ -1,0 +1,8 @@
+﻿  jeu.cpp
+c:\users\meh\source\repos\algo_question2\question2_algo\question2_algo\jeu.cpp(13): warning C4018: '<': signed/unsigned mismatch
+c:\users\meh\source\repos\algo_question2\question2_algo\question2_algo\jeu.cpp(16): warning C4018: '<': signed/unsigned mismatch
+c:\users\meh\source\repos\algo_question2\question2_algo\question2_algo\jeu.cpp(19): warning C4018: '<': signed/unsigned mismatch
+c:\users\meh\source\repos\algo_question2\question2_algo\question2_algo\jeu.cpp(20): warning C4018: '<': signed/unsigned mismatch
+c:\users\meh\source\repos\algo_question2\question2_algo\question2_algo\jeu.cpp(29): warning C4018: '<': signed/unsigned mismatch
+c:\users\meh\source\repos\algo_question2\question2_algo\question2_algo\jeu.cpp(30): warning C4018: '<': signed/unsigned mismatch
+  ConsoleApplication5.vcxproj -> c:\users\meh\source\repos\ConsoleApplication5\Debug\ConsoleApplication5.exe

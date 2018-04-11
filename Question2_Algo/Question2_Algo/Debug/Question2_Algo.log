@@ -1,3 +1,18 @@
-﻿  stdafx.cpp
+﻿  test.cpp
+c:\users\meh\source\repos\algo_question2\question2_algo\question2_algo\test.cpp(65): warning C4018: '<': signed/unsigned mismatch
+  monstre.cpp
+  jeu.cpp
   Question2_Algo.cpp
-  Question2_Algo.vcxproj -> C:\Users\Meh\source\repos\Algo_Question2\Question2_Algo\Debug\Question2_Algo.exe
+c:\users\meh\source\repos\algo_question2\question2_algo\question2_algo\test.cpp(65): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+test.obj : error LNK2005: "void __cdecl afficheSolution(class std::vector<class Monstre,class std::allocator<class Monstre> > const &)" (?afficheSolution@@YAXABV?$vector@VMonstre@@V?$allocator@VMonstre@@@std@@@std@@@Z) already defined in Question2_Algo.obj
+test.obj : error LNK2005: "unsigned int __cdecl degat(class std::vector<class Monstre,class std::allocator<class Monstre> > const &)" (?degat@@YAIABV?$vector@VMonstre@@V?$allocator@VMonstre@@@std@@@std@@@Z) already defined in Question2_Algo.obj
+test.obj : error LNK2005: "class std::vector<class Monstre,class std::allocator<class Monstre> > __cdecl forceBrute(class std::vector<class Monstre,class std::allocator<class Monstre> > const &,unsigned int,unsigned int)" (?forceBrute@@YA?AV?$vector@VMonstre@@V?$allocator@VMonstre@@@std@@@std@@ABV12@II@Z) already defined in Question2_Algo.obj
+test.obj : error LNK2005: "bool __cdecl solutionValide(class std::vector<class Monstre,class std::allocator<class Monstre> >,unsigned int,unsigned int,class std::vector<class Monstre,class std::allocator<class Monstre> >)" (?solutionValide@@YA_NV?$vector@VMonstre@@V?$allocator@VMonstre@@@std@@@std@@II0@Z) already defined in Question2_Algo.obj
+test.obj : error LNK2005: "bool __cdecl test(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::vector<class Monstre,class std::allocator<class Monstre> > const &,unsigned int,unsigned int)" (?test@@YA_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@ABV?$vector@VMonstre@@V?$allocator@VMonstre@@@std@@@2@II@Z) already defined in Question2_Algo.obj
+test.obj : error LNK2005: "bool __cdecl testConanLeBarbare(void)" (?testConanLeBarbare@@YA_NXZ) already defined in Question2_Algo.obj
+test.obj : error LNK2005: "bool __cdecl testDisney(void)" (?testDisney@@YA_NXZ) already defined in Question2_Algo.obj
+test.obj : error LNK2005: "bool __cdecl testPokemons(void)" (?testPokemons@@YA_NXZ) already defined in Question2_Algo.obj
+test.obj : error LNK2005: "bool __cdecl testPouliches(void)" (?testPouliches@@YA_NXZ) already defined in Question2_Algo.obj
+test.obj : error LNK2005: "bool __cdecl testTransformers(void)" (?testTransformers@@YA_NXZ) already defined in Question2_Algo.obj
+C:\Users\Meh\source\repos\Algo_Question2\Question2_Algo\Debug\Question2_Algo.exe : fatal error LNK1169: one or more multiply defined symbols found

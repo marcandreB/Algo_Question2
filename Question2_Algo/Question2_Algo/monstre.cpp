@@ -1,5 +1,6 @@
+#pragma once
+#include "stdafx.h"
 #include "monstre.h"
-
 #include <iostream>
 
 Monstre::Monstre(const std::string& nom, unsigned int degat, unsigned int magie_rouge, unsigned int magie_bleue)

@@ -1,10 +1,11 @@
+#pragma once
+#include "stdafx.h"
 #include "jeu.h"
-
 #include <algorithm>
 #include <assert.h>
 #include <iostream>
 #include <string>
-
+#include <vector>
 // Retourne la somme des degats de plusieurs monstres
 // Theta(n)
 unsigned int degat(const std::vector<Monstre>& monstres) {
@@ -187,11 +188,3 @@ bool testTransformers() {
 		14);
 }
 
-int main(void) {
-	testPouliches();
-	testPokemons();
-	testConanLeBarbare();
-	testDisney();
-	testTransformers();
-	return 0;
-}
