@@ -1,18 +1,107 @@
-﻿  test.cpp
-c:\users\meh\source\repos\algo_question2\question2_algo\question2_algo\test.cpp(65): warning C4018: '<': signed/unsigned mismatch
+﻿  stdafx.cpp
+  test.cpp
+c:\users\bruh\downloads\algo_question2\question2_algo\question2_algo\test.cpp(65): warning C4018: '<' : incompatibilité signed/unsigned
+  Question2_Algo.cpp
+c:\users\bruh\downloads\algo_question2\question2_algo\question2_algo\test.cpp(65): warning C4018: '<' : incompatibilité signed/unsigned
   monstre.cpp
   jeu.cpp
-  Question2_Algo.cpp
-c:\users\meh\source\repos\algo_question2\question2_algo\question2_algo\test.cpp(65): warning C4018: '<': signed/unsigned mismatch
-  Generating Code...
-test.obj : error LNK2005: "void __cdecl afficheSolution(class std::vector<class Monstre,class std::allocator<class Monstre> > const &)" (?afficheSolution@@YAXABV?$vector@VMonstre@@V?$allocator@VMonstre@@@std@@@std@@@Z) already defined in Question2_Algo.obj
-test.obj : error LNK2005: "unsigned int __cdecl degat(class std::vector<class Monstre,class std::allocator<class Monstre> > const &)" (?degat@@YAIABV?$vector@VMonstre@@V?$allocator@VMonstre@@@std@@@std@@@Z) already defined in Question2_Algo.obj
-test.obj : error LNK2005: "class std::vector<class Monstre,class std::allocator<class Monstre> > __cdecl forceBrute(class std::vector<class Monstre,class std::allocator<class Monstre> > const &,unsigned int,unsigned int)" (?forceBrute@@YA?AV?$vector@VMonstre@@V?$allocator@VMonstre@@@std@@@std@@ABV12@II@Z) already defined in Question2_Algo.obj
-test.obj : error LNK2005: "bool __cdecl solutionValide(class std::vector<class Monstre,class std::allocator<class Monstre> >,unsigned int,unsigned int,class std::vector<class Monstre,class std::allocator<class Monstre> >)" (?solutionValide@@YA_NV?$vector@VMonstre@@V?$allocator@VMonstre@@@std@@@std@@II0@Z) already defined in Question2_Algo.obj
-test.obj : error LNK2005: "bool __cdecl test(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::vector<class Monstre,class std::allocator<class Monstre> > const &,unsigned int,unsigned int)" (?test@@YA_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@ABV?$vector@VMonstre@@V?$allocator@VMonstre@@@std@@@2@II@Z) already defined in Question2_Algo.obj
-test.obj : error LNK2005: "bool __cdecl testConanLeBarbare(void)" (?testConanLeBarbare@@YA_NXZ) already defined in Question2_Algo.obj
-test.obj : error LNK2005: "bool __cdecl testDisney(void)" (?testDisney@@YA_NXZ) already defined in Question2_Algo.obj
-test.obj : error LNK2005: "bool __cdecl testPokemons(void)" (?testPokemons@@YA_NXZ) already defined in Question2_Algo.obj
-test.obj : error LNK2005: "bool __cdecl testPouliches(void)" (?testPouliches@@YA_NXZ) already defined in Question2_Algo.obj
-test.obj : error LNK2005: "bool __cdecl testTransformers(void)" (?testTransformers@@YA_NXZ) already defined in Question2_Algo.obj
-C:\Users\Meh\source\repos\Algo_Question2\Question2_Algo\Debug\Question2_Algo.exe : fatal error LNK1169: one or more multiply defined symbols found
+c:\users\bruh\downloads\algo_question2\question2_algo\question2_algo\jeu.cpp(13): warning C4018: '<' : incompatibilité signed/unsigned
+c:\users\bruh\downloads\algo_question2\question2_algo\question2_algo\jeu.cpp(16): warning C4018: '<' : incompatibilité signed/unsigned
+c:\users\bruh\downloads\algo_question2\question2_algo\question2_algo\jeu.cpp(19): warning C4018: '<' : incompatibilité signed/unsigned
+c:\users\bruh\downloads\algo_question2\question2_algo\question2_algo\jeu.cpp(20): warning C4018: '<' : incompatibilité signed/unsigned
+c:\users\bruh\downloads\algo_question2\question2_algo\question2_algo\jeu.cpp(29): warning C4018: '<' : incompatibilité signed/unsigned
+c:\users\bruh\downloads\algo_question2\question2_algo\question2_algo\jeu.cpp(30): warning C4018: '<' : incompatibilité signed/unsigned
+  Génération de code en cours...
+test.obj : error LNK2005: "void __cdecl afficheSolution(class std::vector<class Monstre,class std::allocator<class Monstre> > const &)" (?afficheSolution@@YAXABV?$vector@VMonstre@@V?$allocator@VMonstre@@@std@@@std@@@Z) déjà défini(e) dans Question2_Algo.obj
+test.obj : error LNK2005: "unsigned int __cdecl degat(class std::vector<class Monstre,class std::allocator<class Monstre> > const &)" (?degat@@YAIABV?$vector@VMonstre@@V?$allocator@VMonstre@@@std@@@std@@@Z) déjà défini(e) dans Question2_Algo.obj
+test.obj : error LNK2005: "class std::vector<class Monstre,class std::allocator<class Monstre> > __cdecl forceBrute(class std::vector<class Monstre,class std::allocator<class Monstre> > const &,unsigned int,unsigned int)" (?forceBrute@@YA?AV?$vector@VMonstre@@V?$allocator@VMonstre@@@std@@@std@@ABV12@II@Z) déjà défini(e) dans Question2_Algo.obj
+test.obj : error LNK2005: "bool __cdecl solutionValide(class std::vector<class Monstre,class std::allocator<class Monstre> >,unsigned int,unsigned int,class std::vector<class Monstre,class std::allocator<class Monstre> >)" (?solutionValide@@YA_NV?$vector@VMonstre@@V?$allocator@VMonstre@@@std@@@std@@II0@Z) déjà défini(e) dans Question2_Algo.obj
+test.obj : error LNK2005: "bool __cdecl test(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::vector<class Monstre,class std::allocator<class Monstre> > const &,unsigned int,unsigned int)" (?test@@YA_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@ABV?$vector@VMonstre@@V?$allocator@VMonstre@@@std@@@2@II@Z) déjà défini(e) dans Question2_Algo.obj
+test.obj : error LNK2005: "bool __cdecl testConanLeBarbare(void)" (?testConanLeBarbare@@YA_NXZ) déjà défini(e) dans Question2_Algo.obj
+test.obj : error LNK2005: "bool __cdecl testDisney(void)" (?testDisney@@YA_NXZ) déjà défini(e) dans Question2_Algo.obj
+test.obj : error LNK2005: "bool __cdecl testPokemons(void)" (?testPokemons@@YA_NXZ) déjà défini(e) dans Question2_Algo.obj
+test.obj : error LNK2005: "bool __cdecl testPouliches(void)" (?testPouliches@@YA_NXZ) déjà défini(e) dans Question2_Algo.obj
+test.obj : error LNK2005: "bool __cdecl testTransformers(void)" (?testTransformers@@YA_NXZ) déjà défini(e) dans Question2_Algo.obj
+C:\Users\Bruh\Downloads\Algo_Question2\Question2_Algo\Debug\Question2_Algo.exe : fatal error LNK1169: un ou plusieurs symboles définis à différentes reprises ont été rencontrés
+
+Résumé de performance des projets :
+     2878 ms  C:\Users\Bruh\Downloads\Algo_Question2\Question2_Algo\Question2_Algo\Question2_Algo.vcxproj   1 appels
+               2878 ms  Build                                      1 appels
+
+Résumé de performance cible :
+        0 ms  BeforeClCompile                            1 appels
+        0 ms  AfterResourceCompile                       1 appels
+        0 ms  BeforeResourceCompile                      1 appels
+        0 ms  _ClCompile                                 1 appels
+        0 ms  AfterClCompile                             1 appels
+        0 ms  DoLinkOutputFilesMatch                     1 appels
+        0 ms  SelectClCompile                            1 appels
+        0 ms  _ResourceCompile                           1 appels
+        0 ms  SelectCustomBuild                          1 appels
+        0 ms  MakeDirsForCl                              1 appels
+        0 ms  FixupCLCompileOptions                      1 appels
+        0 ms  WarnCompileDuplicatedFilename              1 appels
+        0 ms  ComputeReferenceCLInput                    1 appels
+        0 ms  ComputeCLInputPDBName                      1 appels
+        0 ms  ComputeLinkSwitches                        1 appels
+        0 ms  _SelectedFiles                             1 appels
+        0 ms  BuildCompileTraverse                       1 appels
+        0 ms  AfterBuildCompileEvent                     1 appels
+        0 ms  BuildCompile                               1 appels
+        0 ms  CreateCustomManifestResourceNames          1 appels
+        0 ms  SplitResourcesByCulture                    1 appels
+        0 ms  AssignTargetPaths                          1 appels
+        0 ms  ComputeManifestInputsTargets               1 appels
+        0 ms  ComputeLinkInputsFromProject               1 appels
+        0 ms  ComputeCLGeneratedLinkInputs               1 appels
+        0 ms  _BuildCompileAction                        1 appels
+        0 ms  ComputeCLOutputs                           1 appels
+        0 ms  ComputeManifestGeneratedLinkerInputs       1 appels
+        0 ms  ComputeRCGeneratedLinkInputs               1 appels
+        0 ms  ComputeRCOutputs                           1 appels
+        0 ms  BeforeLink                                 1 appels
+        0 ms  ComputeLegacyManifestEmbedding             1 appels
+        0 ms  BuildLinkTraverse                          1 appels
+        0 ms  ComputeCustomBuildOutput                   1 appels
+        0 ms  PrepareResourceNames                       1 appels
+        0 ms  BuildGenerateSources                       1 appels
+        0 ms  AfterBuildGenerateSourcesEvent             1 appels
+        0 ms  Desktop_PlatformPrepareForBuild            1 appels
+        0 ms  PlatformPrepareForBuild                    1 appels
+        0 ms  GetResolvedWinMD                           1 appels
+        0 ms  SetBuildDefaultEnvironmentVariables        1 appels
+        0 ms  GetReferenceAssemblyPaths                  1 appels
+        0 ms  GetFrameworkPaths                          1 appels
+        0 ms  SetCABuildNativeEnvironmentVariables       1 appels
+        0 ms  ResolveProjectReferences                   1 appels
+        0 ms  _GetProjectReferenceTargetFrameworkProperties   1 appels
+        0 ms  _SplitProjectReferencesByFileExistence     1 appels
+        0 ms  AssignProjectConfiguration                 1 appels
+        0 ms  BeforeResolveReferences                    1 appels
+        0 ms  _PrepareForReferenceResolution             1 appels
+        0 ms  _PrepareForBuild                           1 appels
+        0 ms  PrepareProjectReferences                   1 appels
+        0 ms  PrepareForBuild                            1 appels
+        0 ms  ResolveSDKReferences                       1 appels
+        0 ms  ExpandSDKReferences                        1 appels
+        0 ms  AfterBuildGenerateSources                  1 appels
+        0 ms  _Midl                                      1 appels
+        0 ms  AfterMidl                                  1 appels
+        0 ms  ComputeMIDLGeneratedCompileInputs          1 appels
+        0 ms  MakeDirsForMidl                            1 appels
+        0 ms  _Xsd                                       1 appels
+        0 ms  PreBuildEvent                              1 appels
+        0 ms  BeforeBuildGenerateSources                 1 appels
+        0 ms  BuildGenerateSourcesTraverse               1 appels
+        0 ms  PreLinkEvent                               1 appels
+        0 ms  ResolveReferences                          1 appels
+        0 ms  AfterResolveReferences                     1 appels
+        0 ms  ResolveAssemblyReferences                  1 appels
+        0 ms  _HandlePackageFileConflicts                1 appels
+        0 ms  _BuildGenerateSourcesAction                1 appels
+        0 ms  MakeDirsForLink                            1 appels
+       16 ms  MakeDirsForResourceCompile                 1 appels
+       16 ms  _CheckForInvalidConfigurationAndPlatform   1 appels
+       16 ms  InitializeBuildStatus                      1 appels
+      219 ms  Link                                       1 appels
+     2612 ms  ClCompile                                  1 appels
